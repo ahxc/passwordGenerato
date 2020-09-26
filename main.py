@@ -1,9 +1,10 @@
 import random, sys, os
 from functools import reduce
 
-characterS = "!@#$%^&*"
+numberS = "0123456789"
+characterS = "!@#$%^&*.+=?_"
 lowerS = "abcdefghijklmnopqrstuvwxyz"
-choice = characterS + lowerS + lowerS.upper()
+choice = numberS + characterS + lowerS + lowerS.upper()
 def joinS(a, b):
 	return a+b
 
